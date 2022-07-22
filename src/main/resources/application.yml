@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+
+#头像路径
+comment.avatar: /images/avatar.png
+
+
+

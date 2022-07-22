@@ -1,0 +1,463 @@
+2022-07-10 01:07:44.952  INFO 15240 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:07:45.008  INFO 15240 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:07:45.008  INFO 15240 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:08:48.459  INFO 15240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:08:48.464  INFO 15240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-07-10 01:08:48.469  INFO 15240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-07-10 01:08:53.568  INFO 9000 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 9000 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-10 01:08:53.568 DEBUG 9000 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:08:53.569  INFO 9000 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-10 01:08:53.600  INFO 9000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-10 01:08:53.600  INFO 9000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-10 01:08:54.130  INFO 9000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-10 01:08:54.181  INFO 9000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2022-07-10 01:08:54.717  INFO 9000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-10 01:08:54.724  INFO 9000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-10 01:08:54.724  INFO 9000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-10 01:08:54.778  INFO 9000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-10 01:08:54.778  INFO 9000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2022-07-10 01:08:54.914  INFO 9000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-10 01:08:54.941  INFO 9000 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-10 01:08:55.023  INFO 9000 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-10 01:08:55.080  INFO 9000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-10 01:08:55.267  INFO 9000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-10 01:08:55.280  INFO 9000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-10 01:08:55.812  INFO 9000 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-10 01:08:55.818  INFO 9000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:08:56.396  WARN 9000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-10 01:08:56.597  INFO 9000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-10 01:08:56.945  INFO 9000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-10 01:08:56.974  INFO 9000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-10 01:08:56.983  INFO 9000 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 3.794 seconds (JVM running for 4.63)
+2022-07-10 01:08:59.998  INFO 9000 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-10 01:08:59.999  INFO 9000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-10 01:09:00.000  INFO 9000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-10 01:09:00.024  INFO 9000 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:09:00.095  WARN 9000 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-07-10 01:09:00.104  INFO 9000 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:09:00.104  INFO 9000 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:10:44.502  INFO 9000 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:10:44.511  INFO 9000 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:10:44.511  INFO 9000 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:10:48.494  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:10:48.502  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:10:48.502  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:11:00.944  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:11:00.953  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:11:00.953  INFO 9000 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:11:05.987  INFO 9000 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 01:11:06.000  INFO 9000 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 01:11:06.000  INFO 9000 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:12:36.700  INFO 9000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:12:36.702  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-10 01:12:36.710  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-10 01:13:09.220  INFO 16348 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 16348 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-10 01:13:09.221 DEBUG 16348 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:13:09.221  INFO 16348 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-10 01:13:09.252  INFO 16348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-10 01:13:09.252  INFO 16348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-10 01:13:09.759  INFO 16348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-10 01:13:09.814  INFO 16348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2022-07-10 01:13:10.381  INFO 16348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-10 01:13:10.390  INFO 16348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-10 01:13:10.390  INFO 16348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-10 01:13:10.447  INFO 16348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-10 01:13:10.447  INFO 16348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2022-07-10 01:13:10.592  INFO 16348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-10 01:13:10.622  INFO 16348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-10 01:13:10.714  INFO 16348 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-10 01:13:10.792  INFO 16348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-10 01:13:11.000  INFO 16348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-10 01:13:11.013  INFO 16348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-10 01:13:11.625  INFO 16348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-10 01:13:11.631  INFO 16348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:13:12.267  WARN 16348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-10 01:13:12.475  INFO 16348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-10 01:13:12.816  INFO 16348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-10 01:13:12.845  INFO 16348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-10 01:13:12.854  INFO 16348 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 3.989 seconds (JVM running for 4.629)
+2022-07-10 01:13:12.950  INFO 16348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-10 01:13:12.951  INFO 16348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-10 01:13:12.951  INFO 16348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-10 01:13:18.713  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:13:18.785  WARN 16348 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-07-10 01:13:18.794  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:13:18.794  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:13:23.737  INFO 16348 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:13:23.747  INFO 16348 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:13:23.748  INFO 16348 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:13:29.358  INFO 16348 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 01:13:29.370  INFO 16348 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 01:13:29.370  INFO 16348 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:16:00.353  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 01:16:00.360  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 01:16:00.361  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:16:03.714  INFO 16348 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:16:03.725  INFO 16348 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:16:03.725  INFO 16348 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:19:33.363  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/48', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 48, {}]}
+2022-07-10 01:19:33.370  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 01:19:33.371  INFO 16348 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:19:36.603  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 01:19:36.615  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 01:19:36.615  INFO 16348 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:21:58.224  INFO 16348 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:21:58.227  INFO 16348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-10 01:21:58.233  INFO 16348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-10 01:22:01.670  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 5552 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-10 01:22:01.671 DEBUG 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:22:01.671  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-10 01:22:01.707  INFO 5552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-10 01:22:01.708  INFO 5552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-10 01:22:02.209  INFO 5552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-10 01:22:02.263  INFO 5552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2022-07-10 01:22:02.843  INFO 5552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-10 01:22:02.851  INFO 5552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-10 01:22:02.851  INFO 5552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-10 01:22:02.906  INFO 5552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-10 01:22:02.906  INFO 5552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2022-07-10 01:22:03.056  INFO 5552 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-10 01:22:03.087  INFO 5552 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-10 01:22:03.178  INFO 5552 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-10 01:22:03.245  INFO 5552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-10 01:22:03.462  INFO 5552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-10 01:22:03.477  INFO 5552 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-10 01:22:04.045  INFO 5552 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-10 01:22:04.052  INFO 5552 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:22:04.680  WARN 5552 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-10 01:22:04.910  INFO 5552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-10 01:22:05.257  INFO 5552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-10 01:22:05.290  INFO 5552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-10 01:22:05.299  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 4.04 seconds (JVM running for 5.498)
+2022-07-10 01:22:08.410  INFO 5552 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-10 01:22:08.411  INFO 5552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-10 01:22:08.412  INFO 5552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-10 01:53:44.909  INFO 5552 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:53:44.912  INFO 5552 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-10 01:53:44.921  INFO 5552 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-10 01:53:45.019  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 5552 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-10 01:53:45.020 DEBUG 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:53:45.020  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-10 01:53:45.225  INFO 5552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-10 01:53:45.244  INFO 5552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2022-07-10 01:53:45.375  INFO 5552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-10 01:53:45.376  INFO 5552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-10 01:53:45.376  INFO 5552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-10 01:53:45.396  INFO 5552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-10 01:53:45.396  INFO 5552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 373 ms
+2022-07-10 01:53:45.457  INFO 5552 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-10 01:53:45.462  INFO 5552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-10 01:53:45.472  INFO 5552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-10 01:53:45.473  INFO 5552 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-10 01:53:45.590  INFO 5552 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-10 01:53:45.591  INFO 5552 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 01:53:45.942  WARN 5552 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-10 01:53:46.071  INFO 5552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-10 01:53:46.248  INFO 5552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-10 01:53:46.259  INFO 5552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-10 01:53:46.262  INFO 5552 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 1.285 seconds (JVM running for 1906.461)
+2022-07-10 01:53:46.263  INFO 5552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-10 01:53:51.404  INFO 5552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-10 01:53:51.404  INFO 5552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-10 01:53:51.406  INFO 5552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-10 01:53:51.411  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 01:53:51.487  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 01:53:51.487  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 01:53:56.985  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/40', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[40, {}]}
+2022-07-10 01:53:57.048  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 01:53:57.049  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:38.062  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:05:38.071  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:05:38.071  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:39.130  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:05:39.153  WARN 5552 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-07-10 02:05:39.160  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:05:39.160  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:40.159  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:05:40.172  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:05:40.172  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:41.766  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:05:41.776  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:05:41.776  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:45.311  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:05:45.320  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:05:45.320  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:05:48.369  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:05:48.379  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:05:48.379  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:07:15.137  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:07:15.144  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:07:15.145  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:07:17.616  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:07:17.623  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:07:17.623  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:07:44.029  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:07:44.035  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:07:44.036  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:07:53.894  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:07:53.902  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:07:53.902  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:22.168  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:08:22.174  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:08:22.174  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:24.215  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:08:24.224  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:08:24.224  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:26.016  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:08:26.023  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:08:26.023  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:27.851  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:08:27.857  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:08:27.857  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:31.314  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:08:31.323  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:08:31.323  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:33.619  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:08:33.624  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:08:33.624  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:08:43.451  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:08:43.459  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:08:43.460  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:12.648  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:28:12.657  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:28:12.657  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:13.913  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:28:13.921  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:28:13.921  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:16.529  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:28:16.537  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:28:16.537  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:39.228  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:28:39.233  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:39.234  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:41.380  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 3, {}]}
+2022-07-10 02:28:41.387  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:41.387  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:42.500  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}]}
+2022-07-10 02:28:42.506  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:42.506  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:43.660  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/48', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 48, {}]}
+2022-07-10 02:28:43.666  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:43.666  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:44.524  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 3, {}]}
+2022-07-10 02:28:44.527  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:44.528  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:45.163  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}]}
+2022-07-10 02:28:45.167  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:45.167  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:45.909  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:28:45.915  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:28:45.915  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:50.168  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 3, {}]}
+2022-07-10 02:28:50.176  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:50.176  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:52.229  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:28:52.235  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:28:52.235  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:53.112  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/48', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 48, {}]}
+2022-07-10 02:28:53.120  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:53.120  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:55.134  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:28:55.141  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:28:55.141  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:55.944  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}]}
+2022-07-10 02:28:55.949  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:28:55.949  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:28:57.423  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:28:57.429  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:28:57.429  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:12.912  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:29:12.917  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:29:12.917  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:18.047  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:29:18.052  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:29:18.052  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:20.616  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:29:20.624  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:29:20.624  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:22.505  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:29:22.510  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:29:22.510  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:23.015  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:29:23.021  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:29:23.021  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:27.696  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], AWS, {}]}
+2022-07-10 02:29:27.701  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-10 02:29:27.701  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:31.425  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:29:31.433  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:29:31.433  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:36.275  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], AWS, {}]}
+2022-07-10 02:29:36.276  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-10 02:29:36.277  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:45.047  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 测试, {}]}
+2022-07-10 02:29:45.052  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-10 02:29:45.053  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:29:55.468  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:29:55.476  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:29:55.477  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:00.898  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:30:00.905  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:30:00.905  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:05.552  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:30:05.567  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:30:05.568  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:22.009  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:30:22.013  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:30:22.013  INFO 5552 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:26.168  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:30:26.176  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:30:26.176  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:27.872  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:30:27.877  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:30:27.877  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:29.983  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:30:29.991  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:30:29.991  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:40.538  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:30:40.546  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:30:40.546  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:43.530  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:30:43.535  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:30:43.536  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:44.922  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:30:44.928  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:30:44.928  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:30:45.844  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/50', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[50, {}]}
+2022-07-10 02:30:45.849  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:30:45.850  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:31:47.258  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:31:47.266  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:31:47.266  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:31:57.267  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:31:57.273  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:31:57.273  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:32:03.530  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:32:03.538  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:32:03.538  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:32:18.592  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:32:18.599  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:32:18.600  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:32:22.673  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}]}
+2022-07-10 02:32:22.676  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:32:22.676  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:32:26.925  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:32:26.932  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:32:26.932  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:32:45.307  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/42', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[42, {}]}
+2022-07-10 02:32:45.313  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:32:45.313  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:39:20.124  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:39:20.129  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:39:20.130  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:39:25.102  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/51', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[51, {}]}
+2022-07-10 02:39:25.111  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:39:25.112  INFO 5552 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:43:30.938  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:43:30.944  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:43:30.944  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:48:50.028  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:48:50.033  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:48:50.033  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:48:53.592  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:48:53.596  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:48:53.597  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:48:54.726  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:48:54.734  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:48:54.734  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:49:26.265  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:49:26.271  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:49:26.271  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:49:27.227  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/51', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[51, {}]}
+2022-07-10 02:49:27.232  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:49:27.232  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:49:55.902  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:49:55.911  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:49:55.911  INFO 5552 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:49:57.038  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/50', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[50, {}]}
+2022-07-10 02:49:57.043  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:49:57.043  INFO 5552 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:49:59.957  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:49:59.963  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:49:59.964  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:50:28.499  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:50:28.506  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:50:28.506  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:50:29.537  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:50:29.542  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:50:29.543  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:50:41.050  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:50:41.057  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:50:41.058  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:50:46.119  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/40', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[40, {}]}
+2022-07-10 02:50:46.124  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-10 02:50:46.124  INFO 5552 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:50:51.572  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:50:51.579  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:50:51.579  INFO 5552 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:51:10.391  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 管理, {}]}
+2022-07-10 02:51:10.394  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-10 02:51:10.394  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:51:14.582  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:51:14.588  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:51:14.588  INFO 5552 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:53:12.861  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:53:12.867  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:53:12.867  INFO 5552 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:53:14.531  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 02:53:14.538  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 02:53:14.538  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:53:16.509  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-10 02:53:16.513  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-10 02:53:16.514  INFO 5552 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:53:29.486  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 02:53:29.492  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 02:53:29.492  INFO 5552 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 02:54:45.740  INFO 5552 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 02:54:45.741  INFO 5552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-07-10 02:54:45.744  INFO 5552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-07-10 22:01:08.502  INFO 19204 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 19204 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-10 22:01:08.503 DEBUG 19204 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 22:01:08.503  INFO 19204 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-10 22:01:08.543  INFO 19204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-10 22:01:08.543  INFO 19204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-10 22:01:09.331  INFO 19204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-10 22:01:09.402  INFO 19204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2022-07-10 22:01:10.190  INFO 19204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-10 22:01:10.202  INFO 19204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-10 22:01:10.203  INFO 19204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-10 22:01:10.270  INFO 19204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-10 22:01:10.270  INFO 19204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1727 ms
+2022-07-10 22:01:10.462  INFO 19204 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-10 22:01:10.516  INFO 19204 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-10 22:01:10.662  INFO 19204 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-10 22:01:10.761  INFO 19204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-10 22:01:11.091  INFO 19204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-10 22:01:11.109  INFO 19204 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-10 22:01:11.841  INFO 19204 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-10 22:01:11.849  INFO 19204 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-10 22:01:12.602  WARN 19204 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-10 22:01:12.856  INFO 19204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-10 22:01:13.311  INFO 19204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-10 22:01:13.347  INFO 19204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-10 22:01:13.358  INFO 19204 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 5.371 seconds (JVM running for 9.364)
+2022-07-10 22:01:21.458  INFO 19204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-10 22:01:21.459  INFO 19204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-10 22:01:21.459  INFO 19204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-10 22:01:21.504  INFO 19204 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 22:01:21.599  WARN 19204 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-07-10 22:01:21.611  INFO 19204 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 22:01:21.611  INFO 19204 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 22:02:22.779  INFO 19204 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 管理, {}]}
+2022-07-10 22:02:22.792  INFO 19204 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-10 22:02:22.793  INFO 19204 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 22:02:28.300  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 22:02:28.314  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 22:02:28.315  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 22:02:30.336  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-10 22:02:30.359  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-10 22:02:30.360  INFO 19204 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 22:03:13.620  INFO 19204 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-10 22:03:13.636  INFO 19204 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-10 22:03:13.636  INFO 19204 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-10 22:03:24.057  WARN 19204 --- [http-nio-8080-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.

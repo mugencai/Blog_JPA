@@ -1,0 +1,32 @@
+2022-07-02 11:32:33.560 ERROR 12200 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.mugencai' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.mugencai
+    Value: infolog/blog-pro.log
+    Origin: class path resource [application-pro.yml] - 15:19
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.infolog/blog-pro.log)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-07-02 11:33:34.966  INFO 9288 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 9288 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-02 11:33:34.967  INFO 9288 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "pro"
+2022-07-02 11:33:36.519  WARN 9288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 11:33:36.686  WARN 9288 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-02 11:33:36.790  INFO 9288 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 2.168 seconds (JVM running for 2.77)

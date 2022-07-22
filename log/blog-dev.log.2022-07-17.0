@@ -1,0 +1,682 @@
+2022-07-17 00:34:01.306  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 00:34:01.343  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 00:34:01.344  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:01.646  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:01.649  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:01.649  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:04.600  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/102', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[102, {}]}
+2022-07-17 00:34:04.613  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 00:34:04.613  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:04.950  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:04.952  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:04.952  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:11.707  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 00:34:11.712  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 00:34:11.712  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:11.973  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:11.975  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:11.975  INFO 13472 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:12.893  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/42', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[42, {}]}
+2022-07-17 00:34:12.908  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 00:34:12.908  INFO 13472 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:13.256  INFO 13472 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:13.258  INFO 13472 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:13.258  INFO 13472 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:17.932  INFO 13472 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 00:34:17.938  INFO 13472 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 00:34:17.938  INFO 13472 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:18.213  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:18.215  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:18.216  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:31.404  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 00:34:31.409  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 00:34:31.410  INFO 13472 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:31.671  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:31.674  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:31.674  INFO 13472 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:33.087  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/102', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[102, {}]}
+2022-07-17 00:34:33.100  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 00:34:33.100  INFO 13472 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:33.445  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 00:34:33.448  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 00:34:33.448  INFO 13472 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 00:34:53.477  INFO 13472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 00:34:53.482  INFO 13472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-07-17 00:34:53.497  INFO 13472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-07-17 21:44:26.479  INFO 256 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Starting MyblogApplication using Java 11.0.15 on DESKTOP-K8M7D6I with PID 256 (C:\Users\dai\IdeaProjects\myblog\target\classes started by dai in C:\Users\dai\IdeaProjects\myblog)
+2022-07-17 21:44:26.480 DEBUG 256 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-17 21:44:26.480  INFO 256 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : The following 1 profile is active: "dev"
+2022-07-17 21:44:26.515  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-17 21:44:26.515  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-17 21:44:27.265  INFO 256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 21:44:27.326  INFO 256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2022-07-17 21:44:28.023  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-17 21:44:28.036  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-17 21:44:28.036  INFO 256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-17 21:44:28.101  INFO 256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-17 21:44:28.101  INFO 256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1586 ms
+2022-07-17 21:44:28.279  INFO 256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 21:44:28.320  INFO 256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-17 21:44:28.460  INFO 256 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 21:44:28.579  INFO 256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-17 21:44:29.003  INFO 256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-17 21:44:29.018  INFO 256 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-17 21:44:29.917  INFO 256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 21:44:29.924  INFO 256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 21:44:30.625  WARN 256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 21:44:30.854  INFO 256 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-17 21:44:31.365  INFO 256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-17 21:44:31.418  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-17 21:44:31.430  INFO 256 --- [restartedMain] com.mugencai.myblog.MyblogApplication    : Started MyblogApplication in 5.404 seconds (JVM running for 7.829)
+2022-07-17 21:46:39.983  INFO 256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 21:46:39.984  INFO 256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-17 21:46:39.984  INFO 256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-17 21:46:44.017  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 21:46:44.124  WARN 256 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-07-17 21:46:44.138  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 21:46:44.138  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:46:44.709  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:46:44.719  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:46:44.719  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:32.989  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/102', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[102, {}]}
+2022-07-17 21:47:33.072  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 21:47:33.073  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:33.517  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:47:33.525  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:47:33.525  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:40.911  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/53', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[53, {}]}
+2022-07-17 21:47:40.932  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 21:47:40.932  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:41.313  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:47:41.321  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:47:41.321  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:41.348  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/comments/53', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.CommentController.comments', args=[53, {}]}
+2022-07-17 21:47:41.386  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : blog :: commentList
+2022-07-17 21:47:41.386  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:46.533  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 21:47:46.546  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 21:47:46.546  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:46.897  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:47:46.906  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:47:46.906  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:48.991  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/42', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[42, {}]}
+2022-07-17 21:47:49.020  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 21:47:49.021  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:49.440  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:47:49.451  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:47:49.451  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:55.276  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 21:47:55.292  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 21:47:55.292  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:47:55.621  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:47:55.630  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:47:55.630  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:50:45.966  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/99', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[99, {}]}
+2022-07-17 21:50:45.982  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 21:50:45.982  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:50:46.042 ERROR 256 --- [http-nio-8080-exec-5] c.m.m.h.ControllerExceptionHandler       : Request URL: http://127.0.0.1:8080/blog/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.valueOf(Long.java:1144)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:729)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-07-17 21:50:46.045  WARN 256 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2022-07-17 21:50:46.473  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:50:46.482  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:50:46.482  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:01.100  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.AboutShowController.AboutPage', args=[]}
+2022-07-17 21:54:01.102  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : /about
+2022-07-17 21:54:01.103  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:01.419  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:54:01.428  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:54:01.428  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:03.433  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-17 21:54:03.451  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-17 21:54:03.452  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:03.769  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:54:03.780  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:54:03.780  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:05.433  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 21:54:05.443  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 21:54:05.443  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:05.783  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:54:05.790  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:54:05.790  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:08.955  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/102', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[102, {}]}
+2022-07-17 21:54:08.969  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 21:54:08.969  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 21:54:09.393  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 21:54:09.402  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 21:54:09.402  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:17.130  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:53:17.146  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:53:17.147  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:17.594  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:53:17.600  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:53:17.600  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:21.889  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:53:21.902  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:53:21.903  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:22.240  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:53:22.247  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:53:22.248  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:31.901  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-17 22:53:31.922  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-17 22:53:31.922  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:31.975 ERROR 256 --- [http-nio-8080-exec-9] c.m.m.h.ControllerExceptionHandler       : Request URL: http://127.0.0.1:8080/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.valueOf(Long.java:1144)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:729)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-07-17 22:53:31.976  WARN 256 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2022-07-17 22:53:32.265  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:53:32.275  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:53:32.275  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:35.838  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-17 22:53:35.846  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-17 22:53:35.846  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:53:36.156  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:53:36.160  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:53:36.160  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:14.702  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:54:14.713  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:54:14.713  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:15.031  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:54:15.037  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:54:15.037  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:18.264  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:54:18.274  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:54:18.274  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:18.594  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:54:18.603  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:54:18.603  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:22.472  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:54:22.490  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:54:22.491  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:22.809  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:54:22.820  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:54:22.820  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:53.646  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-17 22:54:53.652  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-17 22:54:53.652  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:54:53.697 ERROR 256 --- [http-nio-8080-exec-6] c.m.m.h.ControllerExceptionHandler       : Request URL: http://127.0.0.1:8080/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.valueOf(Long.java:1144)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:729)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-07-17 22:54:53.698  WARN 256 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2022-07-17 22:54:54.007  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:54:54.014  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:54:54.014  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:55:06.103  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/blog/99', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.blog', args=[99, {}]}
+2022-07-17 22:55:06.116  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : blog
+2022-07-17 22:55:06.116  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:55:06.182 ERROR 256 --- [http-nio-8080-exec-9] c.m.m.h.ControllerExceptionHandler       : Request URL: http://127.0.0.1:8080/blog/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.valueOf(Long.java:1144)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:729)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-07-17 22:55:06.183  WARN 256 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2022-07-17 22:55:06.538  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:55:06.543  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:55:06.543  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:55:25.829  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 管理, {}]}
+2022-07-17 22:55:25.840  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : search
+2022-07-17 22:55:25.840  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:55:30.429  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:55:30.441  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:55:30.441  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:55:30.794  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:55:30.798  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:55:30.798  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:56:02.096  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:56:02.103  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:56:02.104  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:56:02.400  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:56:02.405  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:56:02.405  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:56:17.297  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 22:56:17.308  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 22:56:17.309  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 22:56:17.659  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 22:56:17.669  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 22:56:17.669  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:12.763  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.AboutShowController.AboutPage', args=[]}
+2022-07-17 23:00:12.763  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : /about
+2022-07-17 23:00:12.763  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:13.092  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:00:13.096  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:00:13.096  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:13.885  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.ArchiveShowController.archives', args=[{}]}
+2022-07-17 23:00:13.896  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : archives
+2022-07-17 23:00:13.896  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:14.194  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:00:14.198  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:00:14.199  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:15.261  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:00:15.275  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:00:15.275  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:00:15.594  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:00:15.600  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:00:15.600  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:01:37.214  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.AboutShowController.AboutPage', args=[]}
+2022-07-17 23:01:37.214  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : /about
+2022-07-17 23:01:37.214  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:01:37.551  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:01:37.556  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:01:37.556  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:01:52.317  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:01:52.330  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:01:52.330  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:01:52.679  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:01:52.685  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:01:52.685  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:01.311  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:02:01.318  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:02:01.318  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:01.630  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:02:01.637  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:02:01.637  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:03.310  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:02:03.324  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:02:03.324  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:03.638  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:02:03.649  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:02:03.650  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:04.534  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2022-07-17 23:02:04.540  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : types
+2022-07-17 23:02:04.540  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:04.577 ERROR 256 --- [http-nio-8080-exec-2] c.m.m.h.ControllerExceptionHandler       : Request URL: http://127.0.0.1:8080/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.valueOf(Long.java:1144)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:729)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-07-17 23:02:04.577  WARN 256 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2022-07-17 23:02:04.838  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:02:04.844  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:02:04.844  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:31.911  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:02:31.925  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:02:31.925  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:02:32.268  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:02:32.272  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:02:32.272  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:03:37.873  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:03:37.884  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:03:37.884  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:03:38.224  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:03:38.227  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:03:38.228  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:03:42.879  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:03:42.891  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:03:42.891  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:03:43.196  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:03:43.205  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:03:43.205  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:04:36.503  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:04:36.511  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:04:36.511  INFO 256 --- [http-nio-8080-exec-4] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:04:36.857  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:04:36.863  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:04:36.863  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:04:39.376  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:04:39.388  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:04:39.388  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:04:39.704  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:04:39.714  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:04:39.715  INFO 256 --- [http-nio-8080-exec-2] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:05:32.370  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.AboutShowController.AboutPage', args=[]}
+2022-07-17 23:05:32.371  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : /about
+2022-07-17 23:05:32.371  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:05:32.700  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:05:32.705  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:05:32.705  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:05:44.966  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:05:44.974  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:05:44.974  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:05:45.245  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:05:45.255  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:05:45.256  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:00.150  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:06:00.160  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:06:00.161  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:00.485  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:06:00.491  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:06:00.491  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:09.550  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:06:09.559  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:06:09.559  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:09.887  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:06:09.893  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:06:09.894  INFO 256 --- [http-nio-8080-exec-6] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:42.142  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:06:42.153  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:06:42.153  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:42.464  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:06:42.471  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:06:42.472  INFO 256 --- [http-nio-8080-exec-3] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:44.248  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:06:44.259  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:06:44.259  INFO 256 --- [http-nio-8080-exec-9] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:06:44.561  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:06:44.568  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:06:44.569  INFO 256 --- [http-nio-8080-exec-5] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:07:26.784  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 1, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:07:26.792  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:07:26.792  INFO 256 --- [http-nio-8080-exec-10] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:07:27.122  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:07:27.131  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:07:27.132  INFO 256 --- [http-nio-8080-exec-1] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:07:30.457  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2022-07-17 23:07:30.467  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : Result : index
+2022-07-17 23:07:30.467  INFO 256 --- [http-nio-8080-exec-8] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:07:30.862  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.mugencai.myblog.web.IndexController.newblog', args=[{}]}
+2022-07-17 23:07:30.866  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : Result : _fragments :: newblogList
+2022-07-17 23:07:30.866  INFO 256 --- [http-nio-8080-exec-7] com.mugencai.myblog.aspect.LogAspect     : -------doAfter-------
+2022-07-17 23:14:40.835  INFO 256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 23:14:40.840  INFO 256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-17 23:14:40.845  INFO 256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
